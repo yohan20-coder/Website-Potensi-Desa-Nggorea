@@ -1,0 +1,27 @@
+
+.nav-tabs{
+	background: #ddd;
+	padding-top: 5px;
+	padding-left: 5px;
+}
+.tab-content{
+	border: 3px solid #fad08d;
+	border-top: none;
+	margin-bottom: 20px;
+}
+.tab-content ul{
+	padding: 0;
+}
+.tab-content li{
+	list-style: none;
+	border-bottom: 1px solid #eee;
+	padding: 10px;
+	overflow: hidden;
+}
+.tab-content img{
+	width: 80px;
+	height: 60px;
+	float: left;
+	margin-right: 10px;
+}
+

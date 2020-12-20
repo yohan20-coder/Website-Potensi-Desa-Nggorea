@@ -1,0 +1,156 @@
+body{
+	background: white;
+	font: 12px arial;
+}
+#container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 6px;
+	background: rgba(23,38,89,0.5);
+}
+#header{
+	padding: 10px 0;
+	
+}
+
+#content{
+	background: #fff;
+	min-height: 400px;
+	overflow: hidden;
+}
+
+#footer{
+	background: #222;
+	padding: 10px;
+	margin-top: 20px;
+	color: #555;
+}
+#footer p{
+	color: #ccc;
+	margin: 0;
+	padding-top: 15px;
+	text-align: center;
+}
+/*-------------------Bagian Menu----------------------*/
+#menu .navbar{
+	margin-bottom: 7px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: none;
+	border-radius: 0;
+	-moz-border-radius:0;
+	-webkit-border-radius:0;
+}
+
+
+#menu .dropdown-menu{
+	background: white!important;
+}
+
+#menu .dropdown-menu a{
+	color: #888;
+	padding: 10px;
+}
+
+#menu .dropdown-menu a:hover{
+	background: #222;
+	color: #fff;
+}
+
+nav #menu{
+	margin-top: 10px;
+	margin-bottom: 1px;
+}
+
+#content{
+	margin-top: 1px;
+}
+
+/*-------------------Bagian Artiekl----------------------*/
+#kiri{
+	width: 700px;
+	min-height: 400px;
+	overflow: hidden;
+	float: left;
+}
+.box{
+	padding: 10px;
+	overflow: hidden;
+}
+.artikel{
+	display: block;
+	float: left;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.gambar-artikel{
+	float: left;
+	padding: 3px;
+	margin-right: 5px;
+	border: 2px solid #fad08d;
+}
+/*-------------------Bagian Sidebar----------------------*/
+
+
+#kanan{
+	width: 260px;
+	min-height:400px;
+	float: left;
+}
+#kanan .judul{
+	border-bottom: 1px solid #ccc;
+	padding : 5px 10px;
+}
+#kanan ul{
+	padding: 0;
+	margin: 0;
+}
+#kanan li{
+	list-style: none;
+	border-bottom: 1px dotted #ddd;
+}
+#kanan li a{
+	display: block;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+#kanan li a:hover{
+	background: #eee;
+}
+/*-------------------Bagian Paging----------------------*/
+.paging{
+	text-align: center;
+}
+.paging span{
+	padding: 5px 10px;
+	margin-right: 5px;
+	
+	border: 1px solid #ccc;
+}
+/*-------------------Bagian submenu----------------------*/
+#menu ul ul {
+	position: absolute;
+	background: #40569e;
+	width: 150px;
+	display: none;
+}
+#menu li:hover ul{
+	display: block;
+}
+#menu ul ul li{
+	width: 100%;
+}
+#menu ul ul li:hover{
+	background: #172659;
+}
+/*-------------------Bagian Komentar----------------------*/
+.komentar{
+	border-bottom: 1px solid #eee;
+	margin-bottom: 5px;
+}
+.formkomentar{
+	padding: 10px;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+}
